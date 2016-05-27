@@ -13,6 +13,7 @@
 !     limitations under the License.
 
         program EDIT_DESCRIPTOR_WITHOUT_W
+            print 20, 1, 2, 3, 'x', 'y', 4
  20         format(2(i3), i5, 1x, a, 1x, a, 1x, i )
             stop
         end
